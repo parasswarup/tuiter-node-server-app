@@ -13,6 +13,7 @@ const createTuit = (req, res) => {
     newTuit.image = 'nasa.jpg';
     newTuit.topic = 'Space';
     newTuit.time = '2h';
+    newTuit.dislikes = 0;
     tuits.push(newTuit);
     res.json(newTuit);
 }
